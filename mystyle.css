@@ -1,0 +1,22 @@
+header{
+    background-color: rgba(255, 255, 255, .90);
+    padding: 1rem; 
+}
+header h1{
+    margin-left: 4rem;
+    color: rgb(233, 142, 142);
+    text-transform: uppercase;
+    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin-left: 4rem;
+}
+li{
+    font-style: italic;
+}

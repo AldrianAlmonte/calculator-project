@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
-    <title>Document</title>
+    <title>MyCalculator</title>
 </head>
 <body>
     <header>
@@ -16,7 +16,14 @@
         <ol>
             <li>Click on button to start</li>
             <li>Calculator will display in the operations zone the results of the four operations + - / *</li>
-            <button onclick="calculator();">Start</button>
+
+            <input type="number" id="number0" placeholder="Enter a number">
+            <input type="number" id="number1" placeholder="Enter a number">
+
+            <button onclick="add();">Add</button>
+            <button onclick="subtract();">Subtract</button>
+            <button onclick="multiply();">Multiply</button>
+            <button onclick="divide();">Divide</button>
             <h2>Calculation Zone</h2>
             
             <div id="calculationZone">
